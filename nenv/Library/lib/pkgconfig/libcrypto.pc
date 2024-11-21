@@ -1,0 +1,11 @@
+prefix=e:/dm/a/E-Commerece-Recommendation-System-Machine-Learning-Product-Recommendation-system-/nenv/Library 
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: OpenSSL-libcrypto
+Description: OpenSSL cryptography library
+Libs: -L"${libdir}" -llibcrypto
+Libs.private: -lcrypt32 -lws2_32
+Cflags: -I"${includedir}"
+Version: 3.4.0 

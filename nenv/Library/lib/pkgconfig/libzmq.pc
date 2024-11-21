@@ -1,0 +1,12 @@
+prefix=e:/dm/a/E-Commerece-Recommendation-System-Machine-Learning-Product-Recommendation-system-/nenv/Library
+exec_prefix=e:/dm/a/E-Commerece-Recommendation-System-Machine-Learning-Product-Recommendation-system-/nenv/Library
+libdir=e:/dm/a/E-Commerece-Recommendation-System-Machine-Learning-Product-Recommendation-system-/nenv/Library/lib
+includedir=e:/dm/a/E-Commerece-Recommendation-System-Machine-Learning-Product-Recommendation-system-/nenv/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: 
+Requires.private: 
+Cflags: -I${includedir} 
